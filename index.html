@@ -8,6 +8,7 @@
     <title>Web Tutorials | Blog</title>
     <link rel="stylesheet" href="highlight/styles/default.css">
     <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/dev_styling.css">
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
         <![endif]-->
@@ -50,6 +51,15 @@
                         <li><a href="#day3">Day 3</a></li>
                         <li><a href="#day4">Day 4</a></li>
                         <li><a href="#day5">Day 5</a></li>
+                        <li><a href="#day6">Day 6</a></li>
+                        <li><a href="#day7">Day 7</a></li>
+                        <li><a href="#day8">Day 8</a></li>
+                        <li><a href="#day9">Day 9</a></li>
+                        <li><a href="#day10">Day 10</a></li>
+                        <li><a href="#day11">Day 11</a></li>
+                        <li><a href="#day12">Day 12</a></li>
+                        <li><a href="#day13">Day 13</a></li>
+                        <li><a href="#day14">Day 14</a></li>
                 </div>
             </div>
 
@@ -58,6 +68,7 @@
                     <h1>The Web Guru</h1>
                     <h2>Tutorials for HTML,CSS,JavaScript.</h2>
                 </div>
+                
 
                 <div class="content">
                     <!-- Every Article -->
@@ -574,9 +585,9 @@ In the next day's lesson we'll take care about how to make ordered lists (i.e. 1
                      <li>background-position</li>
                  </ul>
                  <p style="text-align:justify;">These properties are self explanatory, the background-color deals with giving a specific color to a particular webpage, like the image below.</p>
-                 <img src="http://3.bp.blogspot.com/-HQ-C9ys7mk4/UaHMpNNeAbI/AAAAAAAAAMY/b0GNoWMpVIo/s640/backgroundcolor.PNG" alt ="Cannot display image">
+                  <div class="images" align="center"><img src="http://3.bp.blogspot.com/-HQ-C9ys7mk4/UaHMpNNeAbI/AAAAAAAAAMY/b0GNoWMpVIo/s640/backgroundcolor.PNG" alt ="Cannot display image"></div>
                  <p style="text-align:justify;">A background image is used to set an image as a background, it's syntax is slightly different and is written as follows<code>background-image:url('&lt;image source&gt;');</code></p>
-                 <img src="http://2.bp.blogspot.com/-Gqdbj4BGWG4/UaHNnPyQEYI/AAAAAAAAAMo/jCzf_sM3ZhM/s640/backgroundHTML.PNG">
+                  <div class="images" align="center"><img src="http://2.bp.blogspot.com/-Gqdbj4BGWG4/UaHNnPyQEYI/AAAAAAAAAMo/jCzf_sM3ZhM/s640/backgroundHTML.PNG"></div>
                  <p style="text-align:justify;">But if you see in the image, I don't like the color of the visited link, it doesn't match in with the background, so I want to make the color of a link bright. A Link has 4 properties which are set as follows</p>
                  <code>
                       a:link {color:#FF0000;} /* un visited link */<br>
@@ -587,22 +598,23 @@ In the next day's lesson we'll take care about how to make ordered lists (i.e. 1
 
                  </code>
                  <p style="text-align:justify;">This code gives me a bright green color 'link' and yes I feel happier now.</p>
-                 <img srx="http://2.bp.blogspot.com/-TZID1TpBV_c/UaHOyBGSsbI/AAAAAAAAAM4/ppcCyr7PoN8/s640/colorshift.PNG">
+                 <div class="images" align="center"> <img src="http://2.bp.blogspot.com/-TZID1TpBV_c/UaHOyBGSsbI/AAAAAAAAAM4/ppcCyr7PoN8/s640/colorshift.PNG"></div>
                  <p style="text-align:justify">The color changes and the screen now looks like this.</p>
                  <br>
                  <p style="text-align:justify;">background-repeat property is used in cases where an image has to be repeated throughout the webpage, maybe some gradient image. By default this property repeats the image both horizontally and vertically and sometimes makes a webpage look really bad, like this one below.</p>
-                 <img src="http://4.bp.blogspot.com/-jsnWrBksfvc/UaHPxclwg1I/AAAAAAAAANI/ZxjcggW7wPQ/s640/repeatCSS.PNG" alt="Cannot display image">
+                  <div class="images" align="center"><img src="http://4.bp.blogspot.com/-jsnWrBksfvc/UaHPxclwg1I/AAAAAAAAANI/ZxjcggW7wPQ/s640/repeatCSS.PNG" alt="Cannot display image"></div>
                  <p style="text-align:justify;">Sometimes an image has to be just repeated horizontally or vertically, This is the reason why we have a background-repeat property, the property is used as follows, but note that you should use only one of them and not both. <b>Try to see what happens when you use both of them.</b></p>
                  <code>
                       background-repeat:repeat-x;/*To repeat image in 'x' axis*/<br>
                       background-repeat:repeat-y;/*To repeat image in 'y' axis*/<br>
                  </code>
                  <p style="text-align:justify;">With repeat-x; we get the following image</p>
-                 <img src="http://2.bp.blogspot.com/-KDAW4v4pdqw/UaHREf4iCXI/AAAAAAAAANY/8L9MMjWsxSg/s640/withrepeat.PNG" alt="Can't display webpage">
+                  <div class="images" align="center"><img src="http://2.bp.blogspot.com/-KDAW4v4pdqw/UaHREf4iCXI/AAAAAAAAANY/8L9MMjWsxSg/s640/withrepeat.PNG" alt="Can't display webpage"></div>
                  <p style="text-align:justify;"> background-position is a very important property but before this property is used, the<br>
                     <code>background-repeat: no-repeat;</code><br>
 has to be set to a no-repeat. Then the background image that you've requested for by the document will now be set in the position you've requested the webpage to put at.</p>
-                <img src="http://1.bp.blogspot.com/-MekQqs1rGP8/UaHSf57ADoI/AAAAAAAAANo/g1RiMVnUadY/s640/setposition.PNG"><br>
+                
+                 <div class="images" align="center"><img src="http://1.bp.blogspot.com/-MekQqs1rGP8/UaHSf57ADoI/AAAAAAAAANo/g1RiMVnUadY/s640/setposition.PNG"  ></div><br>
                  <p style="text-align:justify;">So now, go ahead and design your own very colorful webpage. We'll be having an exam put up tomorrow and e-certificate of participation will be given to those who perform well in the exam regarding HTML and CSS. Yes, Googling is allowed. All the best.<br>
                 
 
@@ -622,9 +634,76 @@ has to be set to a no-repeat. Then the background image that you've requested fo
 
                 <p>All the best and Congratulations to everyone.</p><br>
                 <hr>
+ <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+  
+                <h2 class="content-subhead" id="day-11">Day 13. Using forms</h2><br>
+                <p style = "text-align:justify;">You might have encountered  registration forms whenever you are signing into a social networking site or any other forums. So how to create this forums. Let us discuss creation of forums using HTML.<strong> What does form consists of. Text fields to enter details, password fields, radio buttons, check boxes, drop down liststs,text blocks to write any comments . We need to create form in our HTML page between <code>&lt;form> &lt;/form></code> tags.</strong></p>
+
+                <p style = "text-align:justify;">HTML Forms are used to select different kinds of user input. HTML forms are used to pass data to a server. An HTML form can contain input elements like text fields, checkboxes, radio-buttons, submit buttons and more. A form can also contain select lists, textarea, fieldset, legend, and label elements.</p>
+
+                <p><code>
+                &lt;!DOCTYPE html><br>
+                &lt;html><br>
+                &lt;body><br>
+                &lt;h1> This is a Form below &lt;/h1><br>
+                &lt;form action="" ><br>
+                Full name:  &lt;input type="text" name="fullname" value="enter your name">&lt;br>&lt;br><br>
+                &lt;/form><br>
+                &lt;/body><br>
+                &lt;/html> </code><br>
+                </p>
+                
+                <p style = "text-align:justify;">The result of the above code is as follows.</p>
+                <div class="images"><center><img src="http://4.bp.blogspot.com/-6TiYHlACA4o/UaW9ZHHCF3I/AAAAAAAAAN4/beF_pipTfAs/s640/form1.PNG" ></center></div><br>
+                <p style = "text-align:justify;"><strong>Lets try to understand what is happening in the form tag. The action="" says that, the information in this has to be sent to "" server, since we don't have a server with a code to accept the information to store as a database (similar to how you make your excel sheets) we leave it blank. In the form it says, Full name should be a text entry type and in the database this value which is entered will be stored under the "fullname" column. It is similar to how you store all names under one column when you make an excel sheet of your friends and their phone numbers. A small drawback of this is that, the </strong><code>value="enter your name"</code> tells the user what to input here but as you must have seen in many registration sites, when you click on some text box with text like this, it automatically disappears allowing you to input, but in this case, you have to manually select enter your name present in the box, press backspace or delete and type your name. A way to solve this is by using something called a <strong>placeholder</strong>, this makes sure that, as you click on the box, the data that is present in the box is automatically removed. So a small update to the code is as follows. You'll also notice that the text becomes lighter.
+</p><br>
+
+                <p>&lt;!DOCTYPE html><br>
+                &lt;html><br>
+                &lt;body><br>
+                &lt;h1> This is a Form below &lt;/h1><br>
+                &lt;form action="" ><br>
+                Full name:  &lt;input type="text" name="fullname" placeholder="enter your name">&lt;br>&lt;br><br>
+                &lt;/form><br>
+                &lt;/body><br>
+                &lt;/html> </p><br>
                 
 
-                 <br>
+                <p style="text-align:justify">What about passwords ? They are used very widely in forms, like login forms or register forms. For this we need to update the above code from type=<code>"text"</code> to type=<code>"password"</code> and obviously update the name= to a new columns name, as wanted in your database.</p>
+                <div class="images" align="center"><img src="http://2.bp.blogspot.com/-qj8doRoOoXo/UaXAKBGD-YI/AAAAAAAAAOI/q4e6L1VnFl0/s640/passwordform.PNG"></div><br>
+                <p style="text-align:justify">When you try to input into this type of a form, it changes to masked characters by replacing whatever you type with dots or asterisks(*) like this.</p><br>
+                <div class="images1" align="center"><img src="http://1.bp.blogspot.com/--aLwVb4s4_E/UaXAg7mMPHI/AAAAAAAAAOQ/o_23vYeP8S4/s1600/pass.PNG"></div><br>
+
+                <p style="text-align:justify"><input type="radio"> defines a radio button. Radio buttons let a user select ONLY ONE of a limited number of choices: This is generally used when you are mentioning your gender in most fields or a Yes or No, Its also used in online quizzes with single choice.</p><br>
+                
+                <div class="images" align="center"><img src="http://2.bp.blogspot.com/-OI7Y99J-RUQ/UaXFc-0CETI/AAAAAAAAAOw/zH8SG1F11Kk/s640/checkboxes.PNG"></div><br>
+                
+                
+                <p style="text-align:justify"><strong>The above sends this data to the browser column of the database running on the sever. So now that we've covered how creation of a form, the last element to add is a send button. That is done as follows.</strong></p><br>
+                <p><code>
+&lt;form name="input" action="server_file.asp"><br>
+&lt;input type="submit" value="Submit"><br>
+&lt;/form></code> </p><br>
+                <p style="text-align:justify">So now your form is complete, you can now use style to make it more beautiful. Let us now look at iframes, An iframe is used to display a web page within a web page. This is generally used to place your form onto other websites. Instead of re-creating the web form again, you can just place a frame to the place where your form is hosted on the website. The syntax is easy too.</p>
+
+                <p><code>&lt;iframe src="URL" width="780" height="800">&lt;/iframe></code></p><br>
+
+                <p style="text-align:justify">So there you go with todays learning. Advance the webpage layouts and develop registration forms.</p>
+<br><hr>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 
                 </div>
                
